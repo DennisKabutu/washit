@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.washit">
+
+   
+    <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="YOUR KEY HERE"/>
    <application
         android:label="washit"
         android:name="${applicationName}"
@@ -30,5 +34,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+
+         <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCYz19p2OVna7S38znjVEI14A63bz9NPwE"/>
     </application>
 </manifest>
